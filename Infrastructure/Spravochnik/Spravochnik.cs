@@ -12,6 +12,11 @@ namespace Infrastructure.Spravochnik
     {
         string connectionString = @"Data Source=DESKTOP-DVSENK7\SQLEXPRESS;Initial Catalog=Spravochnik;Integrated Security=True";
 
+       public Spravochnik()
+        { 
+        
+        }
+
 
         /// <summary>
         /// Получить справочную информацию о всех товарах

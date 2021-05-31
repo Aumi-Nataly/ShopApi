@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApi", "ShopApi\ShopApi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{30F33F69-DD21-4B22-B182-FE2846652AEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApiTest", "ShopApiTest\ShopApiTest.csproj", "{CA557EEE-BAA6-4244-A885-DAC33618D978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{30F33F69-DD21-4B22-B182-FE2846652AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F33F69-DD21-4B22-B182-FE2846652AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F33F69-DD21-4B22-B182-FE2846652AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA557EEE-BAA6-4244-A885-DAC33618D978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA557EEE-BAA6-4244-A885-DAC33618D978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA557EEE-BAA6-4244-A885-DAC33618D978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA557EEE-BAA6-4244-A885-DAC33618D978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
