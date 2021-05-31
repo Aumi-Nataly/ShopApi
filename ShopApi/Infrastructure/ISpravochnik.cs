@@ -14,7 +14,7 @@ namespace ShopApi.Infrastructure
         /// Получить список всех продуктов
         /// </summary>
         /// <returns></returns>
-        public Task<IEnumerable<AllProductsModel>> GetAllProducts();
+        public Task<List<AllProductsModel>> GetAllProducts();
 
         
     }
