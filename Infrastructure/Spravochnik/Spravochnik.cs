@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using ShopApi.Models.Spravochnik;
-using ShopApi.Infrastructure;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using Infrastructure.Infrastructure;
+using Infrastructure.Models;
 
 namespace Infrastructure.Spravochnik
 {

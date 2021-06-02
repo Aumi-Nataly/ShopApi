@@ -1,6 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Infrastructure.Spravochnik;
-using ShopApi.Models.Spravochnik;
+using Infrastructure.Models;
+using Infrastructure.Infrastructure;
+using Infrastructure.Spravochnik;
 using System.Threading.Tasks;
 
 namespace ShopApiTest.Spravochnik

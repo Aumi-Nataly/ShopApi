@@ -26,6 +26,7 @@ namespace ShopApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+         //   services.AddTransient<ISpravochnik, Spravochnik>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,7 +45,11 @@ namespace ShopApi
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                 endpoints.MapControllers();
+             //   endpoints.MapControllerRoute(
+             //name: "default",
+             //pattern: "{controller=Spravochnik}/{action=qwer}/{id?}");
+
             });
         }
     }
