@@ -1,3 +1,5 @@
+using Infrastructure.Infrastructure;
+using Infrastructure.Spravochnik;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +29,7 @@ namespace ShopApi
         {
             services.AddControllers();
          //   services.AddTransient<ISpravochnik, Spravochnik>();
+         services.AddScoped<ISpravochnik, Spravochnik>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,10 +48,8 @@ namespace ShopApi
 
             app.UseEndpoints(endpoints =>
             {
-                 endpoints.MapControllers();
-             //   endpoints.MapControllerRoute(
-             //name: "default",
-             //pattern: "{controller=Spravochnik}/{action=qwer}/{id?}");
+                 endpoints.MapControllers(); //нет определенных маршрутов/ путь задан через атрибут Route
+             
 
             });
         }

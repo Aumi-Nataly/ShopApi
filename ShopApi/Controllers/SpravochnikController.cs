@@ -33,7 +33,10 @@ namespace ShopApi.Controllers
             _spravochnik = new Infrastructure.Spravochnik.Spravochnik();
         }
 
-
+        /// <summary>
+        /// https://localhost:44388/Spravochnik/AllProduct
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Route("Spravochnik/AllProduct")]
         public async Task<IEnumerable<AllProductsModel>> AllProduct()
